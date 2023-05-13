@@ -7,6 +7,7 @@ cask "bettermouse" do
   desc "Utility improving 3rd party mouse performance and functionalities"
   homepage "https://better-mouse.com/"
 
+  auto_updates true
   livecheck do
     url :homepage
     regex(/Version (\d+(?:\.\d+)+)/i)
